@@ -1,0 +1,146 @@
+body {
+    font-family: Garamond;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(63, 67, 69);
+}
+
+h3 {
+  color: rgb(55, 74, 88);
+}
+
+header img {
+    padding-bottom: 20px;
+}
+
+.sectionflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav, footer nav {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+nav ul a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+
+header {
+    text-align: center;
+} 
+
+aside {
+    background-color:rgb(186, 151, 192);
+    width: 37%;
+    box-sizing: width: 400px;
+    height: 220px;
+    border: 1px solid #333333;
+    font-style: normal;
+    float: left;
+}
+
+.california-stats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 20px 0px 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+section {
+    width: 80%;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+section img {
+    width: auto;
+    max-width: 50%%;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-left: 5px;
+    overflow: visible;
+}
+
+li {
+    width:200px;margin:0 auto;
+    padding-left: 50px;
+    overflow: visible;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-container {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+#relative-message {
+    position: relative;
+    width: 100px;
+    height: 0px;
+    border: 0px solid #ffffff;
+}
+
+.absolute-message {
+    position: absolute;
+    top: 0px;
+    right: 820px;
+    background-color: rgb(221, 165, 45);
+    padding: 5px;
+    border: 1px solid rgb(221, 165, 45);
+    border-radius: 5%;
+}
+
+fieldset {
+
+  width: 200px;
+  background-color: rgb(170, 159, 178);
+}

@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+  </head>
+<link rel="stylesheet" href="styles.css">
+<body>
+
+<header>
+  <img src="./images/californiaseal.png"  alt="California Seal" style="width:205px;height:205px;">
+  <h2>Welcome to California!</h2>
+</header>
+
+  <nav>
+    <ul><a href="index.html">Home</a></ul>
+    <ul><a href="sacramento.html">Sacramento</a></ul>
+    <ul><a href="sandiego.html">San Diego</a></ul>
+    <ul><a href="losangeles.html">Los Angeles</a></ul>
+    <ul><a href="contactus.html">Contact Us</a></ul>
+  </nav>
+<br>
+
+<aside class="aside">
+<center><p>For any inquiries about California, including information on Sacramento, San Diego, and Los Angeles, please feel free to reach out to us. Our team is ready to assist with any questions you may have about the state's diverse regions and attractions. Contact us through our online form, via email at info@aboutcalifornia.com, or by phone at (619) 456-7890.</p>
+</center>
+</aside>
+
+<section>
+<center>
+<fieldset>
+<form action="" class="contact">
+<div class="contact-container">
+<h2>Contact Us</h2>
+</div>
+<input type="text" name="first name" placeholder="First Name" class="contact-inputs" required>
+<input type="text" name="last name" placeholder="Last Name" class="contact-inputs" required>
+<input type="email" name="email" spellcheck="false" id="email-field1" placeholder="Email" class="contact-inputs" required>
+<input type="email" name="emailconfirm" spellcheck="false" id="email-field2" placeholder="Confirm Email" class="contact-inputs" onblur="validateEmail()" required>
+<textarea name="message" placeholder="Message" class="contact-inputs" required></textarea>
+<button type="submit">Submit</button>
+</form>
+</fieldset>
+</center>
+<img src="./images/phone.png"  alt="Contact Us Icon" style="width:225px;height:225px;">
+<p>
+Cities coming soon to About California, 
+<ol>
+  <li>Palm Springs</li>
+  <li>San Francisco</li>
+  <li>San Clemente</li>
+</ol>
+
+</p>
+<br>
+<br>
+<br>
+Also, you can visit the Official <a href="https://www.ca.gov" target="_blank">California website</a> 
+<br>
+<br>
+
+
+<div class="absolute-message">Golden State</div>
+<p id="relative-message"><img src="./images/LPoppy.png"  alt="Poppy" style="width:40px;height:40px;">California Poppy</p>
+</section>
+
+<footer>
+<div class="nav">
+  <li><a class="button" href="index.html">Home</a></li>
+  <li><a class="button" href="sacramento.html">Sacramento</a></li>
+  <li><a class="button" href="sandiego.html">San Diego</a></li>
+  <li><a class="button" href="losangeles.html">Los Angeles</a></li>
+  <li><a class="button" href="contactus.html">Contact Us</a></li>
+</div>
+<p>Kayla Sofchek ©2024</p>
+</footer>
+
+<script>
+
+  function validateEmail() {
+    let emailField1 = document.getElementById("email-field1").value;
+    let emailField2 = document.getElementById("email-field2").value;
+
+    if(emailField1 != emailField2) {
+      alert("Emails don't match. Please try again.");
+      return false;
+}
+}   
+</script>
+
+</body>
+</html>
+
